@@ -1,0 +1,27 @@
+---
+title: "EJ at 10 verification 2019-05-22"
+author: "Katherine Rose Wolf"
+date: "May 22, 2019"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r load libraries}
+library(tidyverse)
+```
+
+```{r read in files}
+tri_2008 <- 
+  read_csv(file = "arcgis/tri_2008_attribute_table.txt")
+tri_2016 <- 
+  read_csv(file = "arcgis/tri_2016_attribute_table.txt")
+
+sum(tri_2008$Sum_TRUE_T)
+
+sum(tri_2016$Sum_TRUE_T)
+```
+

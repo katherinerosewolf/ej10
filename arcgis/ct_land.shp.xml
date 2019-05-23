@@ -1,0 +1,511 @@
+<?xml version="1.0"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by HOWIE STERNBERG (Connecticut DEP) -->
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en">
+	<Esri>
+		<CreaDate>20190523</CreaDate>
+		<CreaTime>03491300</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20120126</SyncDate>
+		<SyncTime>15574600</SyncTime>
+		<ModDate>20120126</ModDate>
+		<ModTime>15574600</ModTime>
+		<DataProperties>
+			<lineage>
+				<Process Name="CopyFeatures_5" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20080715" Time="134452">CopyFeatures R:\Archive\NE_Index_Town\NortheastIndexTown.mdb\Northeast_Index_State_Poly "Database Connections\10.18.8.94.depgis@DEP_Direct.sde\depgis.DEP.Northeast_Index_State_Poly" DEPVECTORSTATIC 885000 0 0</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Analysis Tools.tbx\Clip" Date="20081020" Time="095124">Clip "Database Connections\10.18.8.94.depgis@depview_91dc.sde\depgis.DEP.NortheastIndex_State_Poly" Y:\Archive\Political\Political_24k\shapes\CT_Vicinity.shp Y:\Archive\Political\Political_24k\shapes\CT_VicinityIndex_State_Poly.shp #</Process>
+				<Process Name="CopyFeatures_13" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20081020" Time="112347">CopyFeatures Y:\Archive\Political\Political_24k\shapes\CT_VicinityIndex_State_Poly.shp Y:\Archive\Political\Political_24k\geodatabase\CT_Vicinity.mdb\CT_VicinityIndex_State_Poly # 0 0 0</Process>
+				<Process Name="CopyFeatures_27" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20081020" Time="113625">CopyFeatures Y:\Archive\Political\Political_24k\geodatabase\CT_Vicinity.mdb\CT_VicinityIndex_State_Poly "Database Connections\10.18.8.94.depgis@DEP_Direct.sde\depgis.DEP.CT_VicinityIndex_State_Poly" DEPVECTORSTATIC 10000 0 0</Process>
+				<Process Name="CopyFeatures_41" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20081215" Time="154915">CopyFeatures "Database Connections\10.18.8.94.depgis@DEP.sde\depgis.DEP.CT_VICINITYINDEX_STATE_POLY" "Database Connections\062174-svr.depgis@DEP.sde\depgis.DEP.CT_VICINITYINDEX_STATE_POLY" DEPFEATURESTATIC 0 0 0</Process>
+				<Process ToolSource="C:\Program Files\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20120126" Time="155747">CopyFeatures "Database Connections\10.18.8.60.depgis@DEP_92dc.sde\depgis.DEP.CT_VICINITYINDEX_STATE_POLY" Y:\GIS_Warehouse\public_data\Shapefile_format\Political\Political_Vicinity\CT_VICINITYINDEX_STATE_POLY.shp # 0 0 0</Process></lineage>
+			<itemProps><itemName Sync="TRUE">CT_VICINITYINDEX_STATE_POLY</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize><itemLocation><linkage Sync="TRUE">file://\\DESKTOP-DTI93UM\C$\analysis\ej_10\arcgis\EJ10CT\commondata\arcgis\ct_land</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Foot_US (0.304801)</csUnits><projcsn Sync="TRUE">NAD_1983_StatePlane_Connecticut_FIPS_0600_Feet</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_StatePlane_Connecticut_FIPS_0600_Feet&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,999999.999996],PARAMETER[&amp;quot;False_Northing&amp;quot;,499999.999998],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-72.75],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,41.2],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,41.86666666666667],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,40.83333333333334],UNIT[&amp;quot;Foot_US&amp;quot;,0.3048006096012192],AUTHORITY[&amp;quot;EPSG&amp;quot;,2234]]&lt;/WKT&gt;&lt;XOrigin&gt;-119756300&lt;/XOrigin&gt;&lt;YOrigin&gt;-96342500&lt;/YOrigin&gt;&lt;XYScale&gt;37294945.500735737&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.0032808333333333335&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;2234&lt;/WKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><copyHistory><copy source="C:\analysis\ej_10\arcgis\ct_land" dest="\\DESKTOP-DTI93UM\C$\analysis\ej_10\arcgis\EJ10CT\commondata\arcgis\ct_land" date="20190130" time="23412200"></copy></copyHistory></DataProperties>
+		<ArcGISFormat>1.0</ArcGISFormat></Esri>
+	<idinfo>
+		<native>These data are maintained by the State of Connecticut using ArcGIS software developed by Environmental Systems Research Institute (ESRI) in a Microsoft Windows operating system environment.</native>
+		<descript>
+			<langdata Sync="TRUE">en</langdata>
+			<abstract>Connecticut and Vicinity Index State Polygon includes generalized State boundaries for Connecticut and nearby portions of Massachusetts, New Jersey, New York and Rhode Island.The index version is a faster drawing representation of counties for use in interactive map applications. The data layer was created by merging towns within the same state. The source was Northeast United States Index Town  Polygon which was, in turn, derived from Northeast United States Town Boundary Polygon. In the index version boundary lines have been minimally generalized to reduce vertices. Features such as small and medium offshore islands were eliminated. It may contain some boundary line and county name errors for states other than Connecticut.</abstract>
+			<purpose>Connecticut and Vicinity Index State data are intended for geographic display of states at statewide and regional levels. Use it to map and label states in an interactive map where drawing speed is important. Not suitable for analytic or similar GIS uses. This information should be displayed at scales appropriate for 1:100,000-scale data and smaller. The State of Connecticut, Department of Environmental Protection (CTDEP) assembled this regional data layer using data from other states in order to create a single, seamless representation of political boundaries within the vicinity of Connecticut that could be easily incorporated into mapping applications as background information.</purpose>
+		</descript>
+		<citation>
+			<citeinfo>
+				<pubdate>20081020</pubdate>
+				<ftname Sync="TRUE">depgis.DEP.CT_VICINITYINDEX_STATE_POLY</ftname>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink>http://www.ct.gov/deep</onlink>
+				<pubinfo>
+					<pubplace>Hartford, Connecticut, USA</pubplace>
+					<publish>State of Connecticut, Department of Environmental Protection</publish>
+				</pubinfo>
+				<title>Connecticut and Vicinity Index State Boundary Polygon</title>
+				<origin>State of Connecticut, Department of Environmental Protection (data compiler, editor and publisher)</origin>
+				<origin>U.S. Geological Survey, National Mapping Program (data compiler)</origin>
+				<origin>MassGIS (data compiler and publisher)</origin>
+				<origin>New Jersey Department of Environmental Protection (data compiler and publisher)</origin>
+				<origin>State of New York (data compiler and publisher)</origin>
+				<origin>Rhode Island Geograhic Information System (data compiler and publisher)</origin>
+			</citeinfo>
+		</citation>
+		<timeperd>
+			<current>publication date</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>2008</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-74.122391</westbc>
+				<eastbc Sync="TRUE">-71.125590</eastbc>
+				<northbc Sync="TRUE">42.614413</northbc>
+				<southbc Sync="TRUE">40.511388</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">630476.568000</leftbc>
+				<rightbc Sync="TRUE">1437395.589000</rightbc>
+				<bottombc Sync="TRUE">386675.668000</bottombc>
+				<topbc Sync="TRUE">1149035.908000</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>boundaries</themekey>
+			</theme>
+			<place>
+				<placekt>U.S. Department of Commerce, 1987, Codes for the Identification of the States, the District of Columbia and the Outlying Areas of The United States, and Associated Areas (Federal Information Processing Standard 5-2):  Washington, DC, National Institute of Standards and Technology.</placekt>
+				<placekey>Connecticut</placekey>
+				<placekey>Massachusetts</placekey>
+				<placekey>New Jersey</placekey>
+				<placekey>New York</placekey>
+				<placekey>Rhode Island</placekey>
+				<placekey>CT</placekey>
+				<placekey>MA</placekey>
+				<placekey>NJ</placekey>
+				<placekey>NY</placekey>
+				<placekey>RI</placekey>
+			</place>
+			<place><placekey>United States of America</placekey><placekt>U.S. Department of Commerce, 1995, Countries, Dependencies, Areas of Special Sovereignty, and Their Principal Administrative Divisions (Federal Information Processing Standard (FIPS) 10-4): Washington, D.C., National Institute of Standards and Technology.</placekt><placekey>USA</placekey></place></keywords>
+		<accconst>None. The data is in the public domain and may be redistributed.</accconst>
+		<useconst>No restrictions or legal prerequisites for using the data. The data is suitable for use at appropriate scale, and is not intended for maps printed at scales greater or more detailed than 1:100,000 scale. Although this data set  has been used by the State of Connecticut, Department of Environmental Protection, no warranty, expressed or implied, is made by the State of Connecticut, Department of Environmental Protection as to the accuracy of the data and or related materials.  The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the State of Connecticut, Department of Environmental Protection in the use of these data or related materials. The user assumes the entire risk related to the use of these data. Once the data is distributed to the user, modifications made to the data by the user should be noted in the metadata. When printing this data on a map or using it in a software application, analysis, or report, please acknowledge the State of Connecticut, Department of Environmental Protection as the data publisher. For example, include the following data source description when printing this layer on a map: Political Boundaries - From the Northeastern United States Index State Boundary layer, published by CT DEP.</useconst>
+		<natvform Sync="TRUE">SDE Feature Class</natvform>
+		<ptcontac>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>79 Elm Street</address>
+					<city>Hartford</city>
+					<state>Connecticut</state>
+					<postal>06106-5127</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>860-424-3540</cntvoice>
+				<cntfax>860-424-4058</cntfax>
+				<cntemail>dep.gisdata@ct.gov</cntemail>
+				<hours>Monday to Friday, 08:30 to 16:30 Eastern Standard Time</hours>
+				<cntorgp>
+					<cntorg>State of Connecticut, Department of Environmental Protection</cntorg>
+					<cntper>Howie Sternberg</cntper>
+				</cntorgp>
+			</cntinfo>
+		</ptcontac>
+		<browse><browsen>http://www.cteco.uconn.edu/metadata/dep/browsegraphic/connecticutvicinityindexstatefullview.gif</browsen><browsed>Full view of Connecticut and Vicinity Index State Boundary polygon features</browsed><browset>GIF</browset></browse><browse><browsen>http://www.cteco.uconn.edu/metadata/dep/browsegraphic/connecticutvicinityindexstatectview.gif</browsen><browsed>View of Connecticut and Vicinity Index State Boundary polygon and line features for greater Connecticut area</browsed><browset>GIF</browset></browse></idinfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.3.3600</envirDesc>
+		<dataLang>
+			<languageCode Sync="TRUE" value="en"/>
+			<countryCode value="US" Sync="TRUE"></countryCode></dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">CT_VICINITYINDEX_STATE_POLY</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005"/>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001"/>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">630476.568</westBL>
+					<eastBL Sync="TRUE">1437395.589</eastBL>
+					<northBL Sync="TRUE">1149035.908</northBL>
+					<southBL Sync="TRUE">386675.668</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">-74.122391</westBL>
+			<eastBL Sync="TRUE">-71.12559</eastBL>
+			<northBL Sync="TRUE">42.614413</northBL>
+			<southBL Sync="TRUE">40.511388</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+	</dataIdInfo>
+	<metainfo>
+		<langmeta Sync="TRUE">en</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<city>Hartford</city>
+					<state>Connecticut</state>
+					<postal>06106-5127</postal>
+					<address>79 Elm Street</address>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>860-424-3540</cntvoice>
+				<cntfax>860-424-4058</cntfax>
+				<cntemail>dep.gisdata@ct.gov</cntemail>
+				<hours>Monday to Friday, 08:30 to 16:30 Eastern Standard Time</hours>
+				<cntorgp>
+					<cntorg>State of Connecticut, Department of Environmental Protection</cntorg>
+					<cntper>Diana Danenberg</cntper>
+				</cntorgp>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20111207</metd>
+	</metainfo>
+	<mdLang>
+		<languageCode Sync="TRUE" value="en"/>
+		<countryCode value="US" Sync="TRUE"></countryCode></mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004"/>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005"/>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<stdorder>
+			<fees>An online copy of the data may be accessed without charge.</fees>
+			<digform>
+				<digtinfo>
+					<formname>Shapefile, Feature Class</formname>
+					<formvern>ArcGIS</formvern>
+					<filedec>Zip file</filedec>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.ct.gov/deep</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>79 Elm Street</address>
+					<city>Hartford</city>
+					<state>Connecticut</state>
+					<postal>06106-5127</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>860-424-3540</cntvoice>
+				<cntfax>860-424-4058</cntfax>
+				<cntemail>dep.gisdata@ct.gov</cntemail>
+				<cntorgp>
+					<cntorg>State of Connecticut, Department of Enviromental Protection</cntorg>
+				</cntorgp>
+				<hours>Monday to Friday, 08:30 to 16:30 Eastern Standard Time</hours>
+			</cntinfo>
+		</distrib>
+		<custom>The data distributor does not provide custom GIS analysis or mapping services. Data is available in a standard format and may be converted to other formats, projections, coordinate systems, or selected for specific geographic regions by the party receiving the data.</custom>
+		<techpreq>Geographic information sytem (GIS), computer-aided drawing or other mapping software is necessary to display, view and access the information.</techpreq>
+		<resdesc>Connecticut and Vicinity Index State Boundary Polygon</resdesc>
+		<distliab>Although this data set  has been used by the State of Connecticut, Department of Environmental Protection, no warranty, expressed or implied, is made by the State of Connecticut, Department of Environmental Protection as to the accuracy of the data and or related materials.  The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the State of Connecticut, Department of Environmental Protection in the use of these data or related materials. The user assumes the entire risk related to the use of these data. Once the data is distributed to the user, modifications made to the data by the user should be noted in the metadata.</distliab>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc Sync="TRUE">002</orDesc>
+					<linkage Sync="TRUE">Server=10.18.8.60; Service=sde92:sqlserver:10.18.8.60; Database=depgis; User=dep; Version=sde.DEFAULT</linkage>
+					<protocol Sync="TRUE">ArcSDE Connection</protocol>
+				</onLineSrc>
+				<transSize Sync="TRUE">0.000</transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName Sync="TRUE">SDE Feature Class</formatName>
+			</distorFormat>
+		</distributor>
+		<distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<indspref>Includes State code, State name, County code, and County name for the States of Connecticut, Massachusetts, New Jersey, New York, and Rhode Island.</indspref>
+		<ptvctinf><esriterm><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+				<projcsn Sync="TRUE">NAD_1983_StatePlane_Connecticut_FIPS_0600_Feet</projcsn>
+			</cordsysn>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<plandu Sync="TRUE">survey feet</plandu>
+					<coordrep>
+						<absres Sync="TRUE">0.000250</absres>
+						<ordres Sync="TRUE">0.000250</ordres>
+					</coordrep>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+				<altres Sync="TRUE">1.000000</altres>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="CT_VICINITYINDEX_STATE_POLY">
+			<enttyp>
+				<enttypl>Connecticut and Vicinity Index State Boundary Polygon</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+				<enttypds>State of Connecticut, Department of Environmental Protection</enttypds>
+				<enttypd>Includes line features representing State boundaries; the shoreline; island shorelines; and lines enclosing open water areas along the outer limits of the data extent.</enttypd>
+			</enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl Sync="TRUE">LAND_CLASS</attrlabl>
+				<attalias Sync="TRUE">LAND_CLASS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<attrdef>Land Class - Distinguishes land from water. This dataset includes a large water polygon feature that may impact polygon drawing performance. To improve drawing performance, exclude all water features by using the following expression in a layer definition query: LAND_CLASS = "Land"</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>Land</edomv>
+						<edomvd>Land Feature - Mainland or island</edomvd>
+						<edomvds>CT DEP</edomvds>
+					</edom>
+					<edom>
+						<edomv>Water</edomv>
+						<edomvd>Water Feature - Marine and selected large fresh waterbody</edomvd>
+						<edomvds>CT DEP</edomvds>
+					</edom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CT_LEGEND</attrlabl>
+				<attalias Sync="TRUE">CT_LEGEND</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Connecticut</edomv>
+						<edomvd>State of Connecticut</edomvd>
+						<edomvds>CT DEP</edomvds>
+					</edom>
+					<edom>
+						<edomv>Other States</edomv>
+						<edomvd>Massachusetts, New Jersey, New York, Rhode Island</edomvd>
+						<edomvds>CT DEP</edomvds>
+					</edom>
+					<edom>
+						<edomv>Water</edomv>
+						<edomvd>Water</edomvd>
+						<edomvds>CT DEP</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdef>Connecticut Legend - Classifies features to highlight and differentiate Connecticut from other states.</attrdef>
+				<atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">STATE_COD</attrlabl>
+				<attalias Sync="TRUE">STATE_COD</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">2</attwidth>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>'blank'</edomv>
+						<edomvd>No State designation. Used to encode open water features.</edomvd>
+						<edomvds>CT DEP</edomvds>
+					</edom>
+					<edom>
+						<edomvds>CT DEP</edomvds>
+						<edomv>CT</edomv>
+						<edomvd>State of Connecticut</edomvd>
+					</edom>
+					<edom>
+						<edomvds>CT DEP</edomvds>
+						<edomv>MA</edomv>
+						<edomvd>Commonwealth of Massachusetts</edomvd>
+					</edom>
+					<edom>
+						<edomvds>CT DEP</edomvds>
+						<edomv>NJ</edomv>
+						<edomvd>State of New Jersey</edomvd>
+					</edom>
+					<edom>
+						<edomvds>CT DEP</edomvds>
+						<edomv>NY</edomv>
+						<edomvd>State of New York</edomvd>
+					</edom>
+					<edom>
+						<edomvds>CT DEP</edomvds>
+						<edomv>RI</edomv>
+						<edomvd>State of Rhode Island</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdef>State Code</attrdef>
+				<atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">STATE_NAME</attrlabl>
+				<attalias Sync="TRUE">STATE_NAME</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvds>CT DEP</edomvds>
+						<edomvd>No State designation. Used to encode open water features.</edomvd>
+						<edomv>'blank'</edomv>
+					</edom>
+					<edom>
+						<edomvds>CT DEP</edomvds>
+						<edomv>Connecticut</edomv>
+						<edomvd>State of Connecticut</edomvd>
+					</edom>
+					<edom>
+						<edomvds>CT DEP</edomvds>
+						<edomv>Massachusetts</edomv>
+						<edomvd>Commonwealth of Massachusetts</edomvd>
+					</edom>
+					<edom>
+						<edomvds>CT DEP</edomvds>
+						<edomv>New Jersey</edomv>
+						<edomvd>State of New Jersey</edomvd>
+					</edom>
+					<edom>
+						<edomvds>CT DEP</edomvds>
+						<edomv>New York</edomv>
+						<edomvd>State of New York</edomvd>
+					</edom>
+					<edom>
+						<edomvds>CT DEP</edomvds>
+						<edomv>Rhode Island</edomv>
+						<edomvd>State of Rhode Island</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdef>State Name</attrdef>
+				<atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">LABEL_FLAG</attrlabl>
+				<attalias Sync="TRUE">LABEL_FLAG</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">10</attwidth>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvds>CT DEP</edomvds>
+						<edomv>True</edomv>
+						<edomvd>Polygon feature you can label with MAP_LABEL attribute</edomvd>
+					</edom>
+					<edom>
+						<edomvds>CT DEP</edomvds>
+						<edomv>False</edomv>
+						<edomvd>Polygon feature not to label with MAP_LABEL attribute</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdef>Label Flag - Identifies polygons considered to be large and significant enough in size to be labeled on a map with county names. Polygons designated for labeling are assigned LABEL_FLAG values equal to "True", whereas small island polygons along coast, not typically labeled with county names, are assigned LABEL_FLAG values equal to "False". Label selected features with the MAP_LABEL attribute.</attrdef>
+				<atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">MAP_LABEL</attrlabl>
+				<attalias Sync="TRUE">MAP_LABEL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attrdef>Map Label Text - Text values from the CNTY_NAME field used for map labeling purposes. Use the LABEL_FLAG field to query for polygon features to label with this field.</attrdef>
+				<attrdomv>
+					<udom>Text value</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CT_LABEL_Y</attrlabl>
+				<attalias Sync="TRUE">CT_LABEL_Y</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attrdef>Connecticut Map Label - Map label text for Connecticut counties. Use this field to label all Connecticut counties without using the LABEL_FLAG field to query for the appropriate features to label, which is a slower technique.</attrdef>
+				<attrdomv>
+					<udom>CNTY_NAME values only for polygon features where MAP_LABEL = 'True' and STATE_COD = 'CT'.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CT_LABEL_N</attrlabl>
+				<attalias Sync="TRUE">CT_LABEL_N</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">50</attwidth>
+				<attrdefs>State of Connecticut, Department of Environmental Protection</attrdefs>
+				<attrdef>Not Connecticut Map Label - Map label text for all but Connecticut counties. Use this field to label all but Connecticut counties without using the LABEL_FLAG field to query for the appropriate features to label, which is a slower technique.</attrdef>
+				<attrdomv>
+					<udom>CNTY_NAME values only for polygon features where MAP_LABEL = 'True' and STATE_COD not equal to 'CT'.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">SHAPE</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr><attrlabl Sync="TRUE">SHAPE_area</attrlabl><attalias Sync="TRUE">SHAPE_area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">SHAPE_len</attrlabl><attalias Sync="TRUE">SHAPE_len</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+		<overview>
+			<eaover>Attributes identify and describe the geographic areas and boundaries between states and counties for the States of Connecticut,Massachusetts, New Jersey, New York, and Rhode Island. Use the BOUNDARY attribute to cartographically represent state and county boundary lines. Use the LAND_CLASS attribute to cartographically distinguish land from water polygon features. Use the STATE_COD, STATE_NAME, COUNTY_NAME or MAP_LABEL attributes to label polygon features with state and county names. Use the LABEL_FLAG attribute to identify polygons large enough to label with county names at larger scales using the MAP_LABEL attribute. Or use the CT_LABEL_Y and CT_LABEL_N attributes to label just Connecticut counties or all but Connecticut counties without querying for the appropriate features and labeling them with the MAP_LABEL values, which is a slower technique. Use the CT_LEGEND polygon attribute to classify and highlight features in Connecticut different from the other states. This dataset includes a large water polygon feature that may impact polygon drawing performance. To improve drawing performance, exclude all water features by using the following expression in a layer definition query: LAND_CLASS = "Land"</eaover>
+		</overview>
+	</eainfo>
+	<mdDateSt Sync="TRUE">20120126</mdDateSt>
+	<dataqual>
+		<posacc>
+			<horizpa>
+				<horizpar>The horizontal positional accuracy of this data is unkown.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+		</lineage>
+		<complete>This map layer includes boundaries for Connecticut, Massachusetts, Maine, New Hampshire, New Jersey, New York, Rhode Island, and Vermont. Data completeness has been altered from the original through elimination of features consistant  with the goal of creating simplified, faster drawing data.</complete>
+		<logic>Polygon features conform to the following topological rules. Polygons are single part. There are no duplicate polygons. Polygons do not self overlap. Polygons do not overlap other polygons. Polygons are bound by lines. Line features conform to the following topological rules. Lines are single part. There are no duplicate lines. Lines do not self overlap. Lines do not overlap other lines. Lines intersect only at nodes, and nodes anchor the ends of all lines. Lines do not overshoot or undershoot other lines they are supposed to meet and intersect. The tests of logical consistency were not performed.</logic>
+		<attracc>
+			<attraccr>All attributes have valid values. These attribute values are directly based on or derived from attribute and or spatial (feature location) information supplied by the respective data sources. This information does not depict official boundaries established by the respective state and municipal governments. It may contain some state and county boundary line errors for all states and county name errors for all states other than Connecticut.</attraccr>
+		</attracc>
+	</dataqual>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE" value="2234">NAD_1983_StatePlane_Connecticut_FIPS_0600_Feet</identCode>
+				<idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">7.4.1</idVersion></refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep><geometObjs Name="CT_VICINITYINDEX_STATE_POLY"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo>
+</metadata>
