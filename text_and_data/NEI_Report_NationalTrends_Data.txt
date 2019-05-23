@@ -1,0 +1,74 @@
+"TREND_LOCATION","POLLUTANT","MAJOR_SOURCE_TYPE","TREND_SECTOR","2002_EMISSION_TONS","2005_EMISSION_TONS","2008_EMISSION_TONS","2011_EMISSION_TONS","2014_EMISSION_TONS"
+"National","Acrolein","Fire Sources","Wildfires",17365,13825,15120.92,20753.62,21490.49
+"National","Acrolein","Mobile Sources","Non-Road",831,1587,1782.61,1738.75,3955.68
+"National","Acrolein","Mobile Sources","On-Road",3253,2750,2799.31,3027.11,2560.19
+"National","Acrolein","Stationary Sources","Fuel Combustion - Electric Generation",167,176,299.95,277.21,298.89
+"National","Acrolein","Stationary Sources","Fuel Combustion - Other",770,1911,3253.07,3419.31,3152.87
+"National","Acrolein","Stationary Sources","Industrial and Other Processes",5673,11029,19997.96,20918.97,24934.39
+"National","Ammonia","Fire Sources","Wildfires",224739,129925,198111.68,203251.77,171590.94
+"National","Ammonia","Mobile Sources","Non-Road",2674,2773,3608.12,3278.78,2794.43
+"National","Ammonia","Mobile Sources","On-Road",155227,145797,137707.39,123717.57,108706.02
+"National","Ammonia","Stationary Sources","Fuel Combustion - Electric Generation",28863,25459,28211.52,25281.89,25582.00
+"National","Ammonia","Stationary Sources","Fuel Combustion - Other",35093,37308,75811.64,78845.84,82810.86
+"National","Ammonia","Stationary Sources","Industrial and Other Processes",3547521,3590290,3915870.86,3797538.60,3180989.97
+"National","Benzene","Fire Sources","Wildfires",46081,36682,40120.38,55065.64,25339.64
+"National","Benzene","Mobile Sources","Non-Road",140547,63815,52125.38,39802.15,39030.03
+"National","Benzene","Mobile Sources","On-Road",120334,118467,85872.43,69699.67,59428.27
+"National","Benzene","Stationary Sources","Fuel Combustion - Electric Generation",644,685,825.16,671.89,622.86
+"National","Benzene","Stationary Sources","Fuel Combustion - Other",20544,20674,21853.07,21911.61,18344.82
+"National","Benzene","Stationary Sources","Industrial and Other Processes",103229,64474,59756.66,96245.63,66367.70
+"National","Carbon Monoxide","Fire Sources","Wildfires",14051517,7900048,12200117.98,12701425.83,10487023.57
+"National","Carbon Monoxide","Mobile Sources","Non-Road",22624295,21903197,17884237.22,14948952.02,13261697.40
+"National","Carbon Monoxide","Mobile Sources","On-Road",51610938,42825714,33156468.15,27355394.76,24436506.21
+"National","Carbon Monoxide","Stationary Sources","Fuel Combustion - Electric Generation",656593,642663,728480.11,784388.45,730540.83
+"National","Carbon Monoxide","Stationary Sources","Fuel Combustion - Other",4817187,4482455,3647475.24,3813340.24,3334303.06
+"National","Carbon Monoxide","Stationary Sources","Industrial and Other Processes",8272319,10791812,12038310.41,14158072.74,13395957.97
+"National","Chromium VI Compounds","Mobile Sources","Non-Road",3,1,5.97,5.64,1.81
+"National","Chromium VI Compounds","Mobile Sources","On-Road",3,2,11.05,0.26,0.09
+"National","Chromium VI Compounds","Stationary Sources","Fuel Combustion - Electric Generation",39,38,31.51,23.65,11.76
+"National","Chromium VI Compounds","Stationary Sources","Fuel Combustion - Other",22,11,8.33,4.33,2.63
+"National","Chromium VI Compounds","Stationary Sources","Industrial and Other Processes",26,28,61.64,40.24,22.78
+"National","Ethylene Oxide","Stationary Sources","Fuel Combustion - Electric Generation",0,0,0.16,0.02,0.02
+"National","Ethylene Oxide","Stationary Sources","Fuel Combustion - Other",0,0,2.55,8.51,0.02
+"National","Ethylene Oxide","Stationary Sources","Industrial and Other Processes",716,608,422.95,289.36,153.15
+"National","Formaldehyde","Fire Sources","Wildfires",105482,83962,91831.13,126039.13,129588.70
+"National","Formaldehyde","Mobile Sources","Non-Road",72212,43313,37439.28,30406.67,47137.39
+"National","Formaldehyde","Mobile Sources","On-Road",51133,59558,47711.47,44753.21,38940.97
+"National","Formaldehyde","Stationary Sources","Fuel Combustion - Electric Generation",915,796,1537.12,1952.04,2223.50
+"National","Formaldehyde","Stationary Sources","Fuel Combustion - Other",12682,27300,31363.35,33441.67,29523.53
+"National","Formaldehyde","Stationary Sources","Industrial and Other Processes",31986,63872,96450.08,152431.22,158511.16
+"National","Lead","Mobile Sources","Non-Road",465,496,557.34,489.97,460.88
+"National","Lead","Mobile Sources","On-Road",0,0,0.00,0.00,1.80
+"National","Lead","Stationary Sources","Fuel Combustion - Electric Generation",227,28,52.46,39.70,46.10
+"National","Lead","Stationary Sources","Fuel Combustion - Other",137,94,60.51,42.18,49.19
+"National","Lead","Stationary Sources","Industrial and Other Processes",848,576,279.60,241.54,172.44
+"National","Nitrogen Oxides","Fire Sources","Wildfires",113619,93809,96370.08,184802.42,119147.15
+"National","Nitrogen Oxides","Mobile Sources","Non-Road",4863693,4274735,3484765.22,3081378.33,2679550.70
+"National","Nitrogen Oxides","Mobile Sources","On-Road",10337276,8337747,6941434.85,5870346.43,4879134.02
+"National","Nitrogen Oxides","Stationary Sources","Fuel Combustion - Electric Generation",4709408,3792292,3143620.20,2090114.46,1770431.19
+"National","Nitrogen Oxides","Stationary Sources","Fuel Combustion - Other",2778702,2550227,1983839.16,1813528.62,1684244.01
+"National","Nitrogen Oxides","Stationary Sources","Industrial and Other Processes",1156063,1305954,1259329.64,1478743.29,1463018.46
+"National","PM2.5","Fire Sources","Wildfires",1131071,673037,998604.39,1125175.60,886245.62
+"National","PM2.5","Mobile Sources","Non-Road",337962,287382,236358.26,210485.82,175867.76
+"National","PM2.5","Mobile Sources","On-Road",329563,307899,252603.00,197527.98,163092.73
+"National","PM2.5","Stationary Sources","Fuel Combustion - Electric Generation",506195,515665,309315.18,205262.54,182034.68
+"National","PM2.5","Stationary Sources","Fuel Combustion - Other",622300,615880,525602.42,637584.60,566978.13
+"National","PM2.5","Stationary Sources","Industrial and Other Processes",2878095,3192141,3691659.41,3723573.82,3417717.39
+"National","PM10","Fire Sources","Wildfires",1334675,805007,1177933.90,1325990.64,1045755.36
+"National","PM10","Mobile Sources","Non-Road",362427,303670,259827.73,223397.42,187178.69
+"National","PM10","Mobile Sources","On-Road",401749,382767,331899.77,370825.88,304269.28
+"National","PM10","Stationary Sources","Fuel Combustion - Electric Generation",620041,627017,408757.42,280160.78,233506.10
+"National","PM10","Stationary Sources","Fuel Combustion - Other",829879,814450,577308.46,698496.58,633751.06
+"National","PM10","Stationary Sources","Industrial and Other Processes",18027107,18368611,18824204.92,17823656.89,15793092.46
+"National","Sulfur Dioxide","Fire Sources","Wildfires",80335,55916,69993.06,95836.58,71448.27
+"National","Sulfur Dioxide","Mobile Sources","Non-Road",725452,510290,201062.11,127134.42,68853.30
+"National","Sulfur Dioxide","Mobile Sources","On-Road",285816,171623,39422.82,29464.85,28402.61
+"National","Sulfur Dioxide","Stationary Sources","Fuel Combustion - Electric Generation",10436084,10404322,7792206.24,4625295.48,3243656.67
+"National","Sulfur Dioxide","Stationary Sources","Fuel Combustion - Other",2364899,2316648,1359738.22,894608.91,649619.07
+"National","Sulfur Dioxide","Stationary Sources","Industrial and Other Processes",1139479,1086951,861235.37,706498.90,613027.97
+"National","Volatile Organic Compounds","Fire Sources","Wildfires",3213475,1867670,2846634.01,2891271.40,2466210.99
+"National","Volatile Organic Compounds","Mobile Sources","Non-Road",3085974,2866032,2545916.11,2157038.87,1760192.04
+"National","Volatile Organic Compounds","Mobile Sources","On-Road",4013059,3443048,3051803.67,2871600.14,2377928.83
+"National","Volatile Organic Compounds","Stationary Sources","Fuel Combustion - Electric Generation",49464,48172,43606.79,40578.65,37983.45
+"National","Volatile Organic Compounds","Stationary Sources","Fuel Combustion - Other",1674957,721172,513325.13,587917.91,481326.09
+"National","Volatile Organic Compounds","Stationary Sources","Industrial and Other Processes",8252521,8806911,8757570.40,9605879.83,9789114.27

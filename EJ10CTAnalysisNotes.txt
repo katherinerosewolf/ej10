@@ -1,0 +1,4 @@
+source of CT 2000 block groups:
+
+http://magic.lib.uconn.edu/connecticut_data.html#census_2000 downloaded 2018-08-18
+
