@@ -21,6 +21,7 @@ library(scales)
 library(forcats)
 library(reshape2)
 library(totalcensus)
+library(tidyverse)
 ```
 
 ## CENSUS DATA
@@ -514,7 +515,11 @@ final_tri_ej_data_for_tables <-
             sum_facilities_2016 = sum(fac_n_2016)
   )
 
-final_tri_ej_data_for_tables
+save(final_tri_ej_data_for_tables, 
+     file = "final_tri_ej_data_for_tables.rdata")
+
+write_csv(final_tri_ej_data_for_tables, 
+          path = "final_tri_ej_data_for_tables.csv")
 
 ``` 
 
@@ -548,7 +553,7 @@ density_non_white_ej_law <-
   density(1 - ej_block_groups_people$percent_wh[which(
     ej_block_groups_people$ej_law == 1)], 
     na.rm = TRUE)
-plot(density_non_white, 
+plot(density_non_white_ej_law, 
      main = "% non-white ej law")
 
 density_non_white_not_ej_law <- 
